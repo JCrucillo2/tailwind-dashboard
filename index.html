@@ -22,9 +22,9 @@
       <!-- container -->
       <div class="w-auto xl:container md:mx-auto md:flex justify-between">
         <!-- logo and toggle -->
-        <div class="p-2.5 flex justify-between items-center">
+        <div class="p-2.5 xl:p-0 flex justify-between items-center">
           <a
-            class="block text-2xl tracking-wider uppercase font-bold hover:text-yellow-400 transition-all"
+            class="block text-2xl tracking-wider uppercase font-bold hover:text-yellow-400 transition"
             href="./index.html"
             >Codenation</a
           >
@@ -44,11 +44,11 @@
         </div>
 
         <!-- navigation section -->
-        <nav class="nav-section">
+        <nav class="nav-section hidden md:block">
           <ul class="p-4 text-center md:flex">
             <li class="leading-10">
               <a
-                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition-all"
+                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition"
                 href="#"
                 ><div>
                   <svg
@@ -75,7 +75,7 @@
             </li>
             <li class="leading-10">
               <a
-                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition-all"
+                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition"
                 href="#"
               >
                 <div>
@@ -105,7 +105,7 @@
             </li>
             <li class="leading-10">
               <a
-                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition-all"
+                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition"
                 href="#"
               >
                 <div>
@@ -133,7 +133,7 @@
             </li>
             <li class="leading-10">
               <a
-                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition-all"
+                class="flex items-center gap-2.5 py-2 px-4 hover:ring-2 hover:ring-yellow-300 hover:bg-yellow-500 rounded hover:text-violet-700 transition"
                 href="#"
               >
                 <div>
@@ -164,5 +164,102 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <!-- container -->
+      <div class="w-auto xl:container md:mx-auto p-2.5 xl:p-0">
+        <div class="">
+          <h2 class="text-xl uppercase font-bold mb-4">Projects</h2>
+
+          <!-- grid container -->
+          <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <!-- card 1 -->
+            <section
+              class="rounded bg-violet-700 p-4 transform transition duration-500 hover:scale-105 shadow-lg shadow-violet-700/30 text-white"
+            >
+              <header class="border-b-2 border-yellow-500 pb-2 mb-2">
+                <!-- profile -->
+                <div class="flex items-center mb-4">
+                  <div class="rounded-full w-12 h-12 bg-yellow-400 mr-2"></div>
+                  <h2 class="font-bold">Autism Today Capstone</h2>
+                </div>
+
+                <!-- data -->
+                <div class="mb-2.5">
+                  <p class="text-sm">25%</p>
+                  <div class="w-full bg-violet-900 rounded-full h-2.5">
+                    <div
+                      class="bg-yellow-500 h-2.5 rounded-full"
+                      style="width: 25%"
+                    ></div>
+                  </div>
+                </div>
+              </header>
+
+              <div class="">
+                <p class="text-sm mb-4 text-center font-bold">
+                  Oct. 26, 2022 - Aug. 10, 2023
+                </p>
+                <p class="text-sm mb-4">
+                  <span class="block font-bold text-yellow-400"
+                    >Description:</span
+                  >Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Cupiditate harum hic odit, voluptatibus totam omnis
+                  reprehenderit ad placeat magni inventore natus enim
+                  accusantium dolores sint? Iusto dolor iure rerum illo?
+                </p>
+                <div class="flex align-center gap-2 mb-4">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="icon icon-tabler icon-tabler-users"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                    <path d="M21 21v-2a4 4 0 0 0 -3 -3.85"></path>
+                  </svg>
+                  <p>9 People</p>
+                </div>
+                <div class="flex gap-2">
+                  <a
+                    class="block bg-yellow-400 text-violet-700 hover:bg-yellow-500/90 transition px-2.5 py-2 rounded text-center w-full"
+                    href="#"
+                    >View PDF</a
+                  >
+                  <a
+                    class="block bg-yellow-400 text-violet-700 hover:bg-yellow-500/90 transition px-2.5 py-2 rounded text-center"
+                    href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-checks"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M7 12l5 5l10 -10"></path>
+                      <path d="M2 12l5 5m5 -5l5 -5"></path></svg
+                  ></a>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

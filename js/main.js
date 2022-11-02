@@ -1,7 +1,8 @@
 const toggleButton = document.querySelector(".toggle-icon");
 
 toggleButton.addEventListener("click", () => {
-  const navBody = document.querySelector("nav");
+  const classList = document.querySelector(".nav-section").classList;
 
-  navBody.classList.toggle("active");
+  classList.toggle("hidden");
+  classList.toggle("block");
 });
