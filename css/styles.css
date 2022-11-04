@@ -949,11 +949,6 @@ video {
   --tw-shadow: var(--tw-shadow-colored);
 }
 
-.shadow-violet-700 {
-  --tw-shadow-color: #6d28d9;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
