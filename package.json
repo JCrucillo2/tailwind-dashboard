@@ -4,6 +4,6 @@
   },
   "scripts": {
     "watch": "npx tailwindcss -i ./tailwind.css -o ./css/styles.css --watch",
-    "minify": "npx tailwindcss -o ./css/styles.css -minify"
+    "minify": "npx tailwindcss -o ./css/styles.css --minify"
   }
 }
